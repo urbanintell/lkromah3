@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FastICA	MINST.py	/^from sklearn.decomposition import FastICA$/;"	kind:namespace	line:9
+GaussianRandomProjection	MINST.py	/^from sklearn.random_projection import GaussianRandomProjection$/;"	kind:namespace	line:11
+KMeans	MINST.py	/^from sklearn.cluster import KMeans$/;"	kind:namespace	line:6
+KMeans	plot.py	/^from sklearn.cluster import KMeans$/;"	kind:namespace	line:6
+KMeans	write_minst.py	/^from sklearn.cluster import KMeans$/;"	kind:namespace	line:7
+MINST.py	MINST.py	1;"	kind:file	line:1
+PCA	MINST.py	/^from sklearn.decomposition import PCA$/;"	kind:namespace	line:8
+PCA	plot.py	/^from sklearn.decomposition import PCA$/;"	kind:namespace	line:10
+PCA	plot.py	/^from sklearn.decomposition import PCA$/;"	kind:namespace	line:8
+PCA	write_minst.py	/^from sklearn.decomposition import PCA$/;"	kind:namespace	line:9
+TruncatedSVD	MINST.py	/^from sklearn.decomposition import TruncatedSVD$/;"	kind:namespace	line:10
+Z	plot.py	/^Z = Z.reshape(xx.shape)$/;"	kind:variable	line:37
+Z	plot.py	/^Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])$/;"	kind:variable	line:34
+bench_k_means	write_minst.py	/^def bench_k_means(estimator, cluster, data):$/;"	kind:function	line:17
+centroids	plot.py	/^centroids = kmeans.cluster_centers_$/;"	kind:variable	line:47
+cmap	plot.py	/^           cmap=plt.cm.Paired,$/;"	kind:variable	line:42
+create_increasing_training_examples_files	extractandsplit.py	/^def create_increasing_training_examples_files(train, header, divisions=5, base_fname="train"):$/;"	kind:function	line:49
+csv	MINST.py	/^import csv$/;"	kind:namespace	line:4
+csv	extractandsplit.py	/^import csv$/;"	kind:namespace	line:1
+csv	write_minst.py	/^import csv$/;"	kind:namespace	line:1
+data	plot.py	/^data = pandas.read_csv($/;"	kind:variable	line:14
+evaluate	MINST.py	/^def evaluate(estimator, cluster, data,algo):$/;"	kind:function	line:33
+extent	plot.py	/^           extent=(xx.min(), xx.max(), yy.min(), yy.max()),$/;"	kind:variable	line:41
+extractandsplit.py	extractandsplit.py	1;"	kind:file	line:1
+gen_test_train_files	extractandsplit.py	/^def gen_test_train_files(train, test, header, fname_train="out_train.csv", fname_test="out_test.csv"):$/;"	kind:function	line:34
+h	plot.py	/^h = .02     # point in the mesh [x_min, x_max]x[y_min, y_max].$/;"	kind:variable	line:26
+kmeans	plot.py	/^kmeans = KMeans(init='k-means++', n_clusters=5, n_init=10)$/;"	kind:variable	line:21
+labels	plot.py	/^labels = kmeans.labels_$/;"	kind:variable	line:23
+load_digits	MINST.py	/^from sklearn.datasets import load_digits$/;"	kind:namespace	line:7
+load_digits	plot.py	/^from sklearn.datasets import load_digits$/;"	kind:namespace	line:7
+load_digits	write_minst.py	/^from sklearn.datasets import load_digits$/;"	kind:namespace	line:8
+matplotlib	MINST.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:13
+matplotlib	plot.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	write_minst.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+metrics	MINST.py	/^from sklearn import metrics$/;"	kind:namespace	line:5
+metrics	plot.py	/^from sklearn import metrics$/;"	kind:namespace	line:5
+metrics	write_minst.py	/^from sklearn import metrics$/;"	kind:namespace	line:6
+minst	MINST.py	/^minst = pandas.read_csv($/;"	kind:variable	line:19
+minst	write_minst.py	/^minst = pandas.read_csv($/;"	kind:variable	line:13
+mixture	MINST.py	/^from sklearn import mixture$/;"	kind:namespace	line:14
+n	MINST.py	/^n = 50$/;"	kind:variable	line:27
+np	MINST.py	/^import numpy as np $/;"	kind:namespace	line:15
+np	MINST.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	plot.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	write_minst.py	/^import numpy as np$/;"	kind:namespace	line:3
+ofile	MINST.py	/^ofile = open('minst_pca.csv', "w")$/;"	kind:variable	line:74
+ofile	write_minst.py	/^ofile  = open('test.csv', "wb")$/;"	kind:variable	line:16
+pandas	MINST.py	/^import pandas$/;"	kind:namespace	line:3
+pandas	plot.py	/^import pandas$/;"	kind:namespace	line:11
+pandas	write_minst.py	/^import pandas$/;"	kind:namespace	line:5
+plot.py	plot.py	1;"	kind:file	line:1
+plt	MINST.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:13
+plt	plot.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	write_minst.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+process_wine_row	extractandsplit.py	/^def process_wine_row(item):$/;"	kind:function	line:5
+random	extractandsplit.py	/^import random$/;"	kind:namespace	line:2
+reduced_data	MINST.py	/^reduced_data = PCA(n_components=450).fit_transform(minst)$/;"	kind:variable	line:78
+reduced_data	plot.py	/^reduced_data = PCA(n_components=2).fit_transform(data)$/;"	kind:variable	line:20
+sample_size	MINST.py	/^sample_size = 200$/;"	kind:variable	line:26
+scale	MINST.py	/^from sklearn.preprocessing import scale$/;"	kind:namespace	line:12
+scale	plot.py	/^from sklearn.preprocessing import scale$/;"	kind:namespace	line:9
+scale	write_minst.py	/^from sklearn.preprocessing import scale$/;"	kind:namespace	line:10
+test_train_split_csv	extractandsplit.py	/^def test_train_split_csv(fname='..\/data\/parkinsons.csv', train_pct=0.70, delimiter=",", process=None, has_header=False):$/;"	kind:function	line:11
+time	MINST.py	/^from time import time$/;"	kind:namespace	line:1
+time	plot.py	/^from time import time$/;"	kind:namespace	line:1
+time	write_minst.py	/^from time import time$/;"	kind:namespace	line:2
+train_test_split	MINST.py	/^from sklearn.model_selection import train_test_split$/;"	kind:namespace	line:16
+write_list_to_csv_file	extractandsplit.py	/^def write_list_to_csv_file(fname, list):$/;"	kind:function	line:41
+write_minst.py	write_minst.py	1;"	kind:file	line:1
+writer	MINST.py	/^writer = csv.writer(ofile, delimiter=',')$/;"	kind:variable	line:75
